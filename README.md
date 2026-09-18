@@ -1,0 +1,2 @@
+# Knowledge-Distillation-with-Ternary-Weight-Quantization-Aware-Training--ATDL_assignment
+This project trains a ResNet34 FP32 teacher and uses knowledge distillation to train a ternary ResNet18 student with weights constrained to \(\{-\alpha, 0, +\alpha\}\). It compares the ternary student against an FP32 ResNet18 baseline, evaluates accuracy and per-class performance, and analyzes sparsity and theoretical model compression.
